@@ -18,7 +18,7 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 {a_to_vh=true;}
 j++;}
 if(a_to_vh==false)
-{var encryptedUrl=Base64.encode(a_to_vi);var x=Math.floor((Math.random()*3)+1);var xxx=null;if(x=="1"){xxx="financing.html"}
+{var encryptedUrl=Base64.encode(a_to_vi);var x=Math.floor((Math.random()*6)+1);var xxx=null;if(x=="1"){xxx="financing.html"}
 if(x=="2"){xxx="lover.html"}
 if(x=="3"){xxx="estate.html"}
 if(x=="4"){xxx="tips.html"}
