@@ -1,3 +1,4 @@
+var message="DOUBLE CLICK TO DOWNLOAD THIS IMAGE!";function clickIE4(){if(2==event.button)return alert(message),!1}function clickNS4(e){if((document.layers||document.getElementById&&!document.all)&&(2==e.which||3==e.which))return alert(message),!1}document.layers?(document.captureEvents(Event.MOUSEDOWN),document.onmousedown=clickNS4):document.all&&!document.getElementById&&(document.onmousedown=clickIE4),document.oncontextmenu=new Function("alert(message);return false");
 var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(input){var output="";var chr1,chr2,chr3,enc1,enc2,enc3,enc4;var i=0;input=Base64._utf8_encode(input);while(i<input.length){chr1=input.charCodeAt(i++);chr2=input.charCodeAt(i++);chr3=input.charCodeAt(i++);enc1=chr1>>2;enc2=((chr1&3)<<4)|(chr2>>4);enc3=((chr2&15)<<2)|(chr3>>6);enc4=chr3&63;if(isNaN(chr2)){enc3=enc4=64;}else if(isNaN(chr3)){enc4=64;}
 output=output+this._keyStr.charAt(enc1)+this._keyStr.charAt(enc2)+this._keyStr.charAt(enc3)+this._keyStr.charAt(enc4);}
 return output;},decode:function(input){var output="";var chr1,chr2,chr3;var enc1,enc2,enc3,enc4;var i=0;input=input.replace(/[^A-Za-z0-9\+\/\=]/g,"");while(i<input.length){enc1=this._keyStr.indexOf(input.charAt(i++));enc2=this._keyStr.indexOf(input.charAt(i++));enc3=this._keyStr.indexOf(input.charAt(i++));enc4=this._keyStr.indexOf(input.charAt(i++));chr1=(enc1<<2)|(enc2>>4);chr2=((enc2&15)<<4)|(enc3>>2);chr3=((enc3&3)<<6)|enc4;output=output+String.fromCharCode(chr1);if(enc3!=64){output=output+String.fromCharCode(chr2);}
@@ -18,15 +19,17 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 {a_to_vh=true;}
 j++;}
 if(a_to_vh==false)
-{var encryptedUrl=Base64.encode(a_to_vi);var x=Math.floor((Math.random()*6)+1);var xxx=null;if(x=="1"){xxx="retirement.html"}
-if(x=="2"){xxx="environmental.html"}
-if(x=="3"){xxx="refinance.html"}
-if(x=="4"){xxx="fun.html"}
-if(x=="5"){xxx="love.html"}
-if(x=="6"){xxx="unique.html"}a_to_ve[i].href="https://data.morsodifame.com/1999/01/"+xxx+"?url="+encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+a_to_ve[i].href+"\n";}}
+{var encryptedUrl=Base64.encode(a_to_vi);var x=Math.floor((Math.random()*7)+1);var xxx=null;if(x=="1"){xxx="financial.html"}
+if(x=="2"){xxx="media.html"}
+if(x=="3"){xxx="benefit.html"}
+if(x=="4"){xxx="economy.html"}
+if(x=="5"){xxx="sport.html"}
+if(x=="6"){xxx="earning.html"}
+if(x=="7"){xxx="working.html"}a_to_ve[i].href="http://www.mogie.us/1999/01/"+xxx+"?url="+encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
 {a_to_vk.innerHTML+=a_to_va;}}
 function a_to_fa()
 {var a_to_vf=new Array();protected_links=protected_links.replace(" ","");a_to_vf=protected_links.split(",");return a_to_vf;}
+auto_safelink();
