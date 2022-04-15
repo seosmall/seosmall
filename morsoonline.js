@@ -18,15 +18,18 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 {a_to_vh=true;}
 j++;}
 if(a_to_vh==false)
-{var encryptedUrl=Base64.encode(a_to_vi);var x=Math.floor((Math.random()*6)+1);var xxx=null;if(x=="1"){xxx="financing.html"}
-if(x=="2"){xxx="lover.html"}
-if(x=="3"){xxx="estate.html"}
-if(x=="4"){xxx="tips.html"}
-if(x=="5"){xxx="habit.html"}
-if(x=="6"){xxx="yourself.html"}a_to_ve[i].href="https://data.morsodifame.com/1999/01/"+xxx+"?url="+encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+a_to_ve[i].href+"\n";}}
+{var encryptedUrl=Base64.encode(a_to_vi);var x=Math.floor((Math.random()*7)+1);var xxx=null;if(x=="1"){xxx="ideas.html"}
+if(x=="2"){xxx="opportunities.html"}
+if(x=="3"){xxx="careers.html"}
+if(x=="4"){xxx="healthcare.html"}
+if(x=="5"){xxx="business.html"}
+if(x=="6"){xxx="management.html"}
+if(x=="7"){xxx="health.html"}a_to_ve[i].href="http://www.mogie.us/1999/01/"+xxx+"?url="+encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
 {a_to_vk.innerHTML+=a_to_va;}}
 function a_to_fa()
 {var a_to_vf=new Array();protected_links=protected_links.replace(" ","");a_to_vf=protected_links.split(",");return a_to_vf;}
+auto_safelink();
+var mql=window.matchMedia("screen and (min-width: 60em)");mql.matches&&function(e,t){var a=e.document,n=typeof t;function d(){function d(e,t){var d=a.createElement("div"),o=a.body,s=o.style,r=o.childNodes.length;typeof t!=n&&(d.setAttribute("id",t),s.margin=s.padding=0,s.height="100%",r=Math.floor(Math.random()*r)+1),d.innerHTML=e,o.insertBefore(d,o.childNodes[r-1])}function o(e,t){return t?a.getElementsByTagName(t):a.getElementById(e)}function s(e){o("notif")||d("<p>Please disable your Adblocker to access this site! Thanks.</p>","notif")}var r,i,c;!function(){var t,n,r=["ad_300x250_m_c","hp-store-ad","inner-top-ads","mod_ad","ps-vertical-ads","row2AdContainer","systemad_background","ad","ads","adsense"],i=r.length,c="";for(t=0;t<i;t++)o(r[t])||(c+='<a id="'+r[t]+'"></a>');d(c),i=r.length,setTimeout(function(){for(t=0;t<i;t++)if(null==(n=o(r[t])).offsetParent||"none"==(e.getComputedStyle?a.defaultView.getComputedStyle(n,null).getPropertyValue("display"):n.currentStyle.display))return s()},250)}(),i=o(0,"img"),c=["/adcde.js","/admez/ad","/adsales/ad","/adsenceSearch.","/adtools2.","/adv2.","/partner_ads_","/rcolads1.","_ads.html",".468x60-"],typeof i[0]!=n&&typeof i[0].src!=n&&((r=new Image).onload=function(){this.onload=n,this.onerror=function(){s(this.src)},this.src=i[0].src+"#"+c.join("")},r.src=i[0].src),function(){var d,r,i,c,l,h={"https://pagead2.googlesyndication.com/pagead/show_ads.js":"google_ad_client","https://js.adscale.de/getads.js":"adscale_slot_id","https://get.mirando.de/mirando.js":"adPlaceId"},u=o(0,"script"),m=u.length-1;for(a.write=null,i=m;i>=0;--i)if(typeof h[(l=u[i]).src]!=n){(d=a.createElement("script")).type="text/javascript",d.src=l.src,c=h[l.src],e[c]=t,r=u[0],d.onload=d.onreadystatechange=function(){typeof e[c]!=n||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState||(d.onload=d.onreadystatechange=null,r.parentNode.removeChild(d),e[c]=null)},r.parentNode.insertBefore(d,r),setTimeout(function(){e[c]===t&&s(d.src)},2e3);break}}()}a.addEventListener?e.addEventListener("load",d,!1):e.attachEvent("onload",d)}(window);
